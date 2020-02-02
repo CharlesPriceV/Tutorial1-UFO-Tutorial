@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BlockMover
     - CameraController
     - PlayerController
     - Rotater
@@ -20,7 +21,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/Main.unity:
+    Assets/Scenes/Challenge 1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -59,6 +60,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11126}
     - Class: 114
       Script: {instanceID: 11496}
+    - Class: 114
+      Script: {instanceID: 21734}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -294,7 +297,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: ba7d017e3171d1970cbced635be3298c
+      Hash: 31bf5b8e2aca77c2ce689e7f6e11f7b4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -508,8 +511,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BlockMover
   platform: 5
   scenePathNames:
-  - Assets/Scenes/Main.unity
+  - Assets/Scenes/Challenge 1.unity
   playerPath: C:/Users/CFPri/Desktop/GitHub/Tutorial1-UFO-Tutorial/Tutorial 1 - UFO
-    Tutorial/Builds/Tutorial 1 - UFO Tutorial.exe
+    Tutorial/Builds/Challenge 1 - UFO Challenge/Tutorial 1 - UFO Tutorial.exe
